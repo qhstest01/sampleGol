@@ -11,7 +11,7 @@ go:
 
 matrix:
   exclude:
-    - go= 1.2
+    - go: 1.2
 build:
   ci:
     - go version
