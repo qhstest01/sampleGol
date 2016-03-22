@@ -9,7 +9,8 @@ go:
   - 1.3
 
 env:
- - test1=abcd
+ global:
+   - test1=abcd
  
 matrix:
   include:
