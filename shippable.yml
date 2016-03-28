@@ -2,7 +2,6 @@
 # Language setting
 language: go
 
-
 # Version number
 go:
   - 1.1
@@ -27,8 +26,6 @@ build:
     - if [ "$SHIPPABLE_GO_VERSION" == "1.1" ]; then foobar; fi
 
 hub:
- 
-  
   notifications:
     - integrationName: email
       type: email
