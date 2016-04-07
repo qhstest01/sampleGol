@@ -14,5 +14,7 @@ build:
     pull: true
   
   cache: true  
+  cache_dir_list:
+    - $SHIPPABLE_BUILD_DIR/shippable.yml
   ci:
     - go version
