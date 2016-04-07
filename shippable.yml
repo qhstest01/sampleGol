@@ -10,7 +10,7 @@ go:
 build:
   pre_ci_boot:
     image_name: shippable/minv2
-    image_tag: prod
+    image_tag: latest
     pull: true
   
   cache: true  
