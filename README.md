@@ -1,2 +1,2 @@
 # sampleGol
-test sample for GO
+testtest sample for GO
